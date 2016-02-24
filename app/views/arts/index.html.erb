@@ -1,0 +1,10 @@
+<h1>Art</h1>
+<% @arts.each do |a| %>
+<div>
+  <h3> <%= a.title %></h3>
+  <%= image_tag(a.image_url, size: '200x180') %>
+
+  <p><%= a.description %></p>
+
+</div>
+<% end %>
