@@ -8,6 +8,8 @@
 
  - Create an account, Specify your name, Email, and password.
  
+ - To create an account to log in.... since my sites is mvp go 2 click log in then click "Don't have an account" (MAY REMOVE)
+ 
  - Edit your profile and Upload your very own art designed by you or other artists, to expose yourself through your arts on the web.
  
  - Give a description of your arts labeling yourself or who ever created the art.

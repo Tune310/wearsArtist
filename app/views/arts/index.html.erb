@@ -1,13 +1,13 @@
 <h1>Art</h1>
 <% @arts.each do |a| %>
-<div>
+<div style="display: inline-block;">
   <h3> <%= a.title %></h3>
   <%= image_tag a.avatar.url(:medium) %>
 
 
   <p><%= a.description %></p>
-
+  <div style="display: inline">
+    <%= link_to "Upload", new_art_path %>
+  </div>
 </div>
-
-  <%= link_to "Upload", new_art_path %>
 <% end %>
