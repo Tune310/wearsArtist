@@ -2,9 +2,12 @@
 <% @arts.each do |a| %>
 <div>
   <h3> <%= a.title %></h3>
-  <%= image_tag(a.image_url, size: '200x180') %>
+  <%= image_tag a.avatar.url(:medium) %>
+
 
   <p><%= a.description %></p>
 
 </div>
+
+  <%= link_to "Upload", new_art_path %>
 <% end %>

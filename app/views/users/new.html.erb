@@ -1,7 +1,6 @@
-<h1>wearsArtist</h1>
 <%= simple_form_for @user do |f| %>
-  <%= f.input :name %>
-  <%= f.input :email %>
-  <%= f.input :password %>
+  <%= f.input :name, label: 'Your username please', error: 'Username is mandatory, please specify one' %>
+  <%= f.input :password, hint: 'No special characters.' %>
+  <%= f.input :email, placeholder: 'user@domain.com' %>
   <%= f.button :submit %>
 <% end %>
