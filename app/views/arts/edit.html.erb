@@ -1,0 +1,17 @@
+<h2>Edit</h2>
+<%= simple_form_for @art do |f| %>
+<div>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+</div>
+
+<div>
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+</div>
+
+<%= f.submit "Save Changes" %>
+
+<% end %>
+
+<%= link_to "Back 2 Your Art", user_arts_path %>
