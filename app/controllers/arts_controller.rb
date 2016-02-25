@@ -2,7 +2,9 @@ class ArtsController < ApplicationController
   def index
     @arts = Art.all
   end
-
+  def user_arts
+    @arts = current_user.arts
+  end
   def new
     @art = Art.new
   end
@@ -13,7 +15,7 @@ class ArtsController < ApplicationController
   def create
     @art = current_user.arts.new(art_params)
     if @art.save
-      redirect_to arts_path
+      redirect_to user_arts_path(current_user.id)
     else
       redirect_to root_path
     end

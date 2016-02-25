@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   resources :sessions, only: [:new, :create]
 
   get 'arts' => 'arts#index'
+  get 'users/:id/arts' => 'arts#user_arts', as: :user_arts
   resources :arts
 
 
