@@ -1,4 +1,7 @@
 <h1>Art</h1>
+<div style="display: inline">
+  <%= link_to "Upload", new_art_path %>
+</div>
 <% @arts.each do |a| %>
 <div style="display: inline-block;">
   <h3> <%= a.title %></h3>
@@ -6,8 +9,6 @@
 
 
   <p><%= a.description %></p>
-  <div style="display: inline">
-    <%= link_to "Upload", new_art_path %>
-  </div>
+
 </div>
 <% end %>
