@@ -1,5 +1,7 @@
 ##**wearsArtist**
 
+https://radiant-stream-24292.herokuapp.com/
+
 ###*About*
 
  Welcome to ***wearsArtist***, inpsired by love for self-expression, creativity, art and collaboration amongst other artist.
@@ -36,7 +38,7 @@ Searchin deep in my soul is the only way I could come up with this amazing idea 
 
 *Jimmy* and *Phillipe*
 
- *Armon*_Lord 
+ *Armon*_Lord   
 
 The Google Searchbar
 
@@ -65,6 +67,16 @@ Rails Console
 Postgres
 
 *Gems*: footnotes, better_errors, bcrypt, rails_12factor, paperclip, rails-footnotes, simple_form, bootstrap-sass, bootstrap_form, rails 4.2.4
+
+####Wireframes
+
+<a href='http://postimg.org/image/phjg9ho31/' target='_blank'><img src='http://s14.postimg.org/phjg9ho31/Screen_Shot_2016_02_19_at_2_23_28_PM.jpg' border='0' alt="Screen Shot 2016 02 19 at 2 23 28 PM" /></a>
+
+<a href='http://postimg.org/image/3t3ukzvxh/' target='_blank'><img src='http://s10.postimg.org/3t3ukzvxh/Screen_Shot_2016_02_19_at_2_24_34_PM.jpg' border='0' alt="Screen Shot 2016 02 19 at 2 24 34 PM" /></a>
+
+<a href='http://postimg.org/image/tv25mz5ah/' target='_blank'><img src='http://s12.postimg.org/tv25mz5ah/Screen_Shot_2016_02_19_at_12_24_34_PM.jpg' border='0' alt="Screen Shot 2016 02 19 at 12 24 34 PM" /></a>
+
+
 
 
 
