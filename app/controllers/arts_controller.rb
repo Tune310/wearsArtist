@@ -36,7 +36,8 @@ end
   end
 
   def destroy
-    @art = Art.destroy
+    @art = Art.find(params[:id]).destroy
+    redirect_to user_arts_path(current_user.id)
   end
 
   private
