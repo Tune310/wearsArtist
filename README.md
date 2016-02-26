@@ -36,7 +36,9 @@ Searchin deep in my soul is the only way I could come up with this amazing idea 
 
 ####Technologies Used
 
-*Jimmy* and *Phillipe*
+Captain *Jimmy* and General *Phillipe*
+
+*Barry* The Don Code Thug  
 
  *Armon*_Lord   
 
