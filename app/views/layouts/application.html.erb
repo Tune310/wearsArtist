@@ -10,11 +10,6 @@
 </head>
 <body>
 <%= render partial: "shared/navbar" %>
-  <% if logged_in? %>
-    <%= link_to "Logout", logout_path %>
-  <% else %>
-    <%= link_to "Login", new_session_path %>
-  <% end %>
 
 <div class="container">
   <%= yield %>
