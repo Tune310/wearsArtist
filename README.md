@@ -78,6 +78,8 @@ Postgres
 
 <a href='http://postimg.org/image/tv25mz5ah/' target='_blank'><img src='http://s12.postimg.org/tv25mz5ah/Screen_Shot_2016_02_19_at_12_24_34_PM.jpg' border='0' alt="Screen Shot 2016 02 19 at 12 24 34 PM" /></a>
 
+Trello dedicated to meredith and anyone curious: https://trello.com/b/boeig3uT/wdi-project-2-wearsartist
+
 
 
 
